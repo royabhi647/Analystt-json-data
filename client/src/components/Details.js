@@ -8,7 +8,7 @@ function Details() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const currentData = data?.filter((item) => item?.id == params?.id);
+  const currentData = data?.filter((item) => item?.id === Number(params?.id));
   useEffect(() => {
     fetch("https://api-data-w7gz.onrender.com/users")
       .then((response) => response.json())
