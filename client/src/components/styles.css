@@ -1,0 +1,75 @@
+.cardContainer {
+  width: 95vw;
+  margin-top: 10px;
+  background: #fff;
+  height: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.edit-button {
+  text-decoration: none;
+  padding: 5px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-button:hover {
+  background-color: #f34404;
+}
+
+.singlePageContainer {
+  width: 95vw;
+  height: 95vh;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.singlePageDetails {
+  width: 90vw;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.singlePageBox {
+  width: 100%;
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  bottom: 3%;
+}
+
+.pagination-item {
+  height: 40px;
+  background: #fff;
+  border-radius: 5px;
+  color: #4200ff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 12px;
+  cursor: pointer;
+}
