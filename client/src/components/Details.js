@@ -10,7 +10,7 @@ function Details() {
 
   const currentData = data?.filter((item) => item?.id == params?.id);
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://api-data-w7gz.onrender.com/users")
       .then((response) => response.json())
       .then((data) => {
         setData(data);

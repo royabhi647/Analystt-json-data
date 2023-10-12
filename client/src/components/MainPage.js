@@ -6,7 +6,7 @@ function MainPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/users")
+    fetch("https://api-data-w7gz.onrender.com/users")
       .then((response) => response.json())
       .then((data) => {
         setData(data);
